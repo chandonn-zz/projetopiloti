@@ -13,8 +13,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    Bem vindo!
+                    
+                    <div>
+                        <h3>Bem vindo!</h3>
+                        <div>
+                            Aqui é a área para usuários comuns
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

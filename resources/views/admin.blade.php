@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Bem vindo!
+                    Bem vindo Adminstrador!
                 </div>
             </div>
         </div>

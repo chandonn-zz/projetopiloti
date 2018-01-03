@@ -72,6 +72,7 @@
                         <a href="{{ url('/home') }}">Página Inicial</a>
                     @else
                         <a href="{{ route('login') }}">Entrar</a>
+                        <a href="{{ route('admin.login') }}">Administradores</a>
                         <a href="{{ route('register') }}">Registrar-se</a>
                     @endauth
                 </div>
@@ -82,12 +83,10 @@
                     Projeto Piloti
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div>
+                    <h4>Criado por Alexandre Correa para ingresso na equipe PILOTI</h4>
+                </div>
+
                 </div>
             </div>
         </div>

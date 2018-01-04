@@ -36,9 +36,13 @@ class AdminController extends Controller
 
     }
 
-    public function deleteUser() {
+    public function deleteUser()
+    {
 
     }
 
-    public function listDeletedUsers
+    public function listDeletedUsers()
+    {
+
+    }
 }

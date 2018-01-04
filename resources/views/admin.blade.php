@@ -15,6 +15,27 @@
                     @endif
 
                     Bem vindo Adminstrador!
+                    <div>
+                        <h4>Lista de usuários</h4>
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">Nome</th>
+                              <th scope="col">Email</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">Nome 1</th>
+                              <td>Email</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Nome 2</th>
+                              <td>Email</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

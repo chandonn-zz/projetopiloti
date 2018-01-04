@@ -22,8 +22,8 @@ Route::get('/home', 'HomeController@updateData')->name('home.update');
 
 Route::get('/admin/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
 Route::post('/admin/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
-Route::get('/admin', 'AdminController@index')->name('admin.dashboard');
 Route::get('/admin', 'AdminController@showUsers')->name('admin.show');
-Route::get('/admin', 'AdminController@updateUser')->name('admin.update');
-Route::get('/admin', 'AdminController@deleteUser')->name('admin.delete');
+Route::post('/admin', 'AdminController@updateUser')->name('admin.update');
+Route::post('/admin', 'AdminController@deleteUser')->name('admin.delete');
 Route::get('/admin', 'AdminController@listDeletedUsers')->name('admin.listDeleted');
+Route::get('/admin', 'AdminController@index')->name('admin.dashboard');

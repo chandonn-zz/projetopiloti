@@ -28,7 +28,8 @@ class AdminController extends Controller
 
     public function showUsers()
     {
-
+        // $users = DB::select('select * from users', [1]);
+        // return view('admin.show', ['users' => $users]);
     }
 
     public function updateUser()
